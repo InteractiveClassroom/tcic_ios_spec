@@ -1,0 +1,11 @@
+framework module tencent_rtc_sdk {
+  umbrella header "tencent_rtc_sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module tencent_rtc_sdk.Swift {
+  header "tencent_rtc_sdk-Swift.h"
+  requires objc
+}

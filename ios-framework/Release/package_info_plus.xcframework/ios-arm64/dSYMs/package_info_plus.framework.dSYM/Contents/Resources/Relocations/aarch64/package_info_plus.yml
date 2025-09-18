@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/joyxian/Developments/tcic_apaas_client/tcic_client_moudle/build/ios-framework/Release/iphoneos/Release-iphoneos/package_info_plus/package_info_plus.framework/package_info_plus'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5768F, size: 0x8, addend: 0x0, symName: _package_info_plusVersionString, symObjAddr: 0x0, symBinAddr: 0x4C20, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x576C4, size: 0x8, addend: 0x0, symName: _package_info_plusVersionNumber, symObjAddr: 0x30, symBinAddr: 0x4C50, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x57701, size: 0x8, addend: 0x0, symName: '+[FPPPackageInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offsetInCU: 0x5B, offset: 0x57735, size: 0x8, addend: 0x0, symName: '+[FPPPackageInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offsetInCU: 0xBA, offset: 0x57794, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin handleMethodCall:result:]', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0x510 }
+  - { offsetInCU: 0x182, offset: 0x5785C, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin getInstallDate]', symObjAddr: 0x5B4, symBinAddr: 0x45B4, symSize: 0x110 }
+  - { offsetInCU: 0x1E5, offset: 0x578BF, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin getUpdateDate]', symObjAddr: 0x6C4, symBinAddr: 0x46C4, symSize: 0xE0 }
+  - { offsetInCU: 0x248, offset: 0x57922, size: 0x8, addend: 0x0, symName: '-[FPPPackageInfoPlusPlugin getTimeMillisStringFromDate:]', symObjAddr: 0x7A4, symBinAddr: 0x47A4, symSize: 0x74 }
+...

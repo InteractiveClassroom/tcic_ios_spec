@@ -1,0 +1,3095 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TRTCFlutterErrorCode",
+        "printedName": "TRTCFlutterErrorCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO7successyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO7successyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "invalidParameter",
+            "printedName": "invalidParameter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO16invalidParameteryA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO16invalidParameteryA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "permissionDenied",
+            "printedName": "permissionDenied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO16permissionDeniedyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO16permissionDeniedyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "fileNotExist",
+            "printedName": "fileNotExist",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO12fileNotExistyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO12fileNotExistyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "isDirectory",
+            "printedName": "isDirectory",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO11isDirectoryyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO11isDirectoryyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "fileAlreadyExists",
+            "printedName": "fileAlreadyExists",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO17fileAlreadyExistsyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO17fileAlreadyExistsyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "storageUnmounted",
+            "printedName": "storageUnmounted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO16storageUnmountedyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO16storageUnmountedyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "parentDirCreateFail",
+            "printedName": "parentDirCreateFail",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO19parentDirCreateFailyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO19parentDirCreateFailyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "ioError",
+            "printedName": "ioError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO02ioE0yA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO02ioE0yA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "emptyData",
+            "printedName": "emptyData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO9emptyDatayA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO9emptyDatayA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "invalidImageData",
+            "printedName": "invalidImageData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO16invalidImageDatayA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO16invalidImageDatayA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "zeroSizeImage",
+            "printedName": "zeroSizeImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO13zeroSizeImageyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO13zeroSizeImageyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "unsupportedFormat",
+            "printedName": "unsupportedFormat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(tencent_rtc_sdk.TRTCFlutterErrorCode.Type) -> tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TRTCFlutterErrorCode",
+                        "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO17unsupportedFormatyA2CmF",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO17unsupportedFormatyA2CmF",
+            "moduleName": "tencent_rtc_sdk",
+            "fixedbinaryorder": 12
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO8rawValueACSgSi_tcfc",
+            "moduleName": "tencent_rtc_sdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO8rawValueSivp",
+            "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO8rawValueSivp",
+            "moduleName": "tencent_rtc_sdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO8rawValueSivg",
+                "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO8rawValueSivg",
+                "moduleName": "tencent_rtc_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO",
+        "mangledName": "$s15tencent_rtc_sdk20TRTCFlutterErrorCodeO",
+        "moduleName": "tencent_rtc_sdk",
+        "enumRawTypeName": "Int",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SaveResult",
+        "printedName": "SaveResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCFlutterErrorCode",
+                "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk10SaveResultV4codeAA20TRTCFlutterErrorCodeOvp",
+            "mangledName": "$s15tencent_rtc_sdk10SaveResultV4codeAA20TRTCFlutterErrorCodeOvp",
+            "moduleName": "tencent_rtc_sdk",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TRTCFlutterErrorCode",
+                    "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                    "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15tencent_rtc_sdk10SaveResultV4codeAA20TRTCFlutterErrorCodeOvg",
+                "mangledName": "$s15tencent_rtc_sdk10SaveResultV4codeAA20TRTCFlutterErrorCodeOvg",
+                "moduleName": "tencent_rtc_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk10SaveResultV7messageSSvp",
+            "mangledName": "$s15tencent_rtc_sdk10SaveResultV7messageSSvp",
+            "moduleName": "tencent_rtc_sdk",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15tencent_rtc_sdk10SaveResultV7messageSSvg",
+                "mangledName": "$s15tencent_rtc_sdk10SaveResultV7messageSSvg",
+                "moduleName": "tencent_rtc_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk10SaveResultV4pathSSvp",
+            "mangledName": "$s15tencent_rtc_sdk10SaveResultV4pathSSvp",
+            "moduleName": "tencent_rtc_sdk",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15tencent_rtc_sdk10SaveResultV4pathSSvg",
+                "mangledName": "$s15tencent_rtc_sdk10SaveResultV4pathSSvg",
+                "moduleName": "tencent_rtc_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:message:path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SaveResult",
+                "printedName": "tencent_rtc_sdk.SaveResult",
+                "usr": "s:15tencent_rtc_sdk10SaveResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCFlutterErrorCode",
+                "printedName": "tencent_rtc_sdk.TRTCFlutterErrorCode",
+                "usr": "s:15tencent_rtc_sdk20TRTCFlutterErrorCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk10SaveResultV4code7message4pathAcA20TRTCFlutterErrorCodeO_S2Stcfc",
+            "mangledName": "$s15tencent_rtc_sdk10SaveResultV4code7message4pathAcA20TRTCFlutterErrorCodeO_S2Stcfc",
+            "moduleName": "tencent_rtc_sdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15tencent_rtc_sdk10SaveResultV",
+        "mangledName": "$s15tencent_rtc_sdk10SaveResultV",
+        "moduleName": "tencent_rtc_sdk",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(image:path:succ:fail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk7ImageIOC4save5image4path4succ4failySo7UIImageC_SSySScySi_SStctFZ",
+            "mangledName": "$s15tencent_rtc_sdk7ImageIOC4save5image4path4succ4failySo7UIImageC_SSySScySi_SStctFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadImageFromSandbox",
+            "printedName": "loadImageFromSandbox(atPath:success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk7ImageIOC04loadD11FromSandbox6atPath7successySS_ySo7UIImageCctFZ",
+            "mangledName": "$s15tencent_rtc_sdk7ImageIOC04loadD11FromSandbox6atPath7successySS_ySo7UIImageCctFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageIO",
+                "printedName": "tencent_rtc_sdk.ImageIO",
+                "usr": "s:15tencent_rtc_sdk7ImageIOC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk7ImageIOCACycfc",
+            "mangledName": "$s15tencent_rtc_sdk7ImageIOCACycfc",
+            "moduleName": "tencent_rtc_sdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15tencent_rtc_sdk7ImageIOC",
+        "mangledName": "$s15tencent_rtc_sdk7ImageIOC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TXLiteAVSDK_Professional",
+        "printedName": "TXLiteAVSDK_Professional",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "TXCustomBeautyProcesserPlugin",
+        "printedName": "TXCustomBeautyProcesserPlugin",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ObjectUtils",
+        "printedName": "ObjectUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "convertToTRTCBufferType",
+            "printedName": "convertToTRTCBufferType(beautyBufferType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCVideoBufferType",
+                "printedName": "TXLiteAVSDK_Professional.TRTCVideoBufferType",
+                "usr": "c:@E@TRTCVideoBufferType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyBufferType",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk11ObjectUtilsC23convertToTRTCBufferType012beautyBufferI0So09TRTCVideokI0V29TXCustomBeautyProcesserPlugin09ITXCustomnkI0O_tFZ",
+            "mangledName": "$s15tencent_rtc_sdk11ObjectUtilsC23convertToTRTCBufferType012beautyBufferI0So09TRTCVideokI0V29TXCustomBeautyProcesserPlugin09ITXCustomnkI0O_tFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertToTRTCPixelFormat",
+            "printedName": "convertToTRTCPixelFormat(beautyPixelFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCVideoPixelFormat",
+                "printedName": "TXLiteAVSDK_Professional.TRTCVideoPixelFormat",
+                "usr": "c:@E@TRTCVideoPixelFormat"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyPixelFormat",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk11ObjectUtilsC24convertToTRTCPixelFormat011beautyPixelI0So09TRTCVideokI0V29TXCustomBeautyProcesserPlugin09ITXCustomnkI0O_tFZ",
+            "mangledName": "$s15tencent_rtc_sdk11ObjectUtilsC24convertToTRTCPixelFormat011beautyPixelI0So09TRTCVideokI0V29TXCustomBeautyProcesserPlugin09ITXCustomnkI0O_tFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertTRTCVideoFrame",
+            "printedName": "convertTRTCVideoFrame(trtcVideoFrame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyVideoFrame",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCVideoFrame",
+                "printedName": "TXLiteAVSDK_Professional.TRTCVideoFrame",
+                "usr": "c:objc(cs)TRTCVideoFrame"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk11ObjectUtilsC21convertTRTCVideoFrame09trtcVideoH029TXCustomBeautyProcesserPlugin09ITXCustomljH0CSo0gH0C_tFZ",
+            "mangledName": "$s15tencent_rtc_sdk11ObjectUtilsC21convertTRTCVideoFrame09trtcVideoH029TXCustomBeautyProcesserPlugin09ITXCustomljH0CSo0gH0C_tFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObjectUtils",
+                "printedName": "tencent_rtc_sdk.ObjectUtils",
+                "usr": "s:15tencent_rtc_sdk11ObjectUtilsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk11ObjectUtilsCACycfc",
+            "mangledName": "$s15tencent_rtc_sdk11ObjectUtilsCACycfc",
+            "moduleName": "tencent_rtc_sdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15tencent_rtc_sdk11ObjectUtilsC",
+        "mangledName": "$s15tencent_rtc_sdk11ObjectUtilsC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "TXLiteAVSDK_Professional",
+        "printedName": "TXLiteAVSDK_Professional",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "TXCustomBeautyProcesserPlugin",
+        "printedName": "TXCustomBeautyProcesserPlugin",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProcessVideoFrame",
+        "printedName": "ProcessVideoFrame",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "beautyInstance",
+            "printedName": "beautyInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyProcesser",
+                    "printedName": "any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesser"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk17ProcessVideoFrameC14beautyInstance33_1DFA6BEC2A91ABBB730CE104DCB365E8LL29TXCustomBeautyProcesserPlugin09ITXCustomqR0_pSgvp",
+            "mangledName": "$s15tencent_rtc_sdk17ProcessVideoFrameC14beautyInstance33_1DFA6BEC2A91ABBB730CE104DCB365E8LL29TXCustomBeautyProcesserPlugin09ITXCustomqR0_pSgvp",
+            "moduleName": "tencent_rtc_sdk",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProcessVideoFrame",
+                "printedName": "tencent_rtc_sdk.ProcessVideoFrame",
+                "usr": "c:@M@tencent_rtc_sdk@objc(cs)ProcessVideoFrame"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyProcesser",
+                "printedName": "any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesser"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk17ProcessVideoFrameCyAC29TXCustomBeautyProcesserPlugin09ITXCustomhI0_pcfc",
+            "mangledName": "$s15tencent_rtc_sdk17ProcessVideoFrameCyAC29TXCustomBeautyProcesserPlugin09ITXCustomhI0_pcfc",
+            "moduleName": "tencent_rtc_sdk",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onGLContextDestory",
+            "printedName": "onGLContextDestory()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)ProcessVideoFrame(im)onGLContextDestory",
+            "mangledName": "$s15tencent_rtc_sdk17ProcessVideoFrameC18onGLContextDestoryyyF",
+            "moduleName": "tencent_rtc_sdk",
+            "isOpen": true,
+            "objc_name": "onGLContextDestory",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onProcessVideoFrame",
+            "printedName": "onProcessVideoFrame(_:dstFrame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCVideoFrame",
+                "printedName": "TXLiteAVSDK_Professional.TRTCVideoFrame",
+                "usr": "c:objc(cs)TRTCVideoFrame"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCVideoFrame",
+                "printedName": "TXLiteAVSDK_Professional.TRTCVideoFrame",
+                "usr": "c:objc(cs)TRTCVideoFrame"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)ProcessVideoFrame(im)onProcessVideoFrame:dstFrame:",
+            "mangledName": "$s15tencent_rtc_sdk17ProcessVideoFrameC02ondeF0_03dstF0s6UInt32VSo09TRTCVideoF0C_AItF",
+            "moduleName": "tencent_rtc_sdk",
+            "isOpen": true,
+            "objc_name": "onProcessVideoFrame:dstFrame:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProcessVideoFrame",
+                "printedName": "tencent_rtc_sdk.ProcessVideoFrame",
+                "usr": "c:@M@tencent_rtc_sdk@objc(cs)ProcessVideoFrame"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)ProcessVideoFrame(im)init",
+            "mangledName": "$s15tencent_rtc_sdk17ProcessVideoFrameCACycfc",
+            "moduleName": "tencent_rtc_sdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@tencent_rtc_sdk@objc(cs)ProcessVideoFrame",
+        "mangledName": "$s15tencent_rtc_sdk17ProcessVideoFrameC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "TXLiteAVSDK_Professional",
+        "printedName": "TXLiteAVSDK_Professional",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "TXCustomBeautyProcesserPlugin",
+        "printedName": "TXCustomBeautyProcesserPlugin",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TencentRTCCloud",
+        "printedName": "TencentRTCCloud",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)TencentRTCCloud(cm)registerWithRegistrar:",
+            "mangledName": "$s15tencent_rtc_sdk15TencentRTCCloudC8register4withySo22FlutterPluginRegistrar_p_tFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBeautyProcesserFactory",
+            "printedName": "getBeautyProcesserFactory()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyProcesserFactory",
+                    "printedName": "any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesserFactory"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk15TencentRTCCloudC25getBeautyProcesserFactory08TXCustomgH6Plugin09ITXCustomghI0_pSgyFZ",
+            "mangledName": "$s15tencent_rtc_sdk15TencentRTCCloudC25getBeautyProcesserFactory08TXCustomgH6Plugin09ITXCustomghI0_pSgyFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBeautyProcesserFactory",
+            "printedName": "setBeautyProcesserFactory(factory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyProcesserFactory",
+                "printedName": "any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesserFactory"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)TencentRTCCloud(cm)setBeautyProcesserFactoryWithFactory:",
+            "mangledName": "$s15tencent_rtc_sdk15TencentRTCCloudC25setBeautyProcesserFactory7factoryy08TXCustomgH6Plugin09ITXCustomghI0_p_tFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "objc_name": "setBeautyProcesserFactoryWithFactory:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TencentRTCCloud",
+                "printedName": "tencent_rtc_sdk.TencentRTCCloud",
+                "usr": "c:@M@tencent_rtc_sdk@objc(cs)TencentRTCCloud"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)TencentRTCCloud(im)init",
+            "mangledName": "$s15tencent_rtc_sdk15TencentRTCCloudCACycfc",
+            "moduleName": "tencent_rtc_sdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@tencent_rtc_sdk@objc(cs)TencentRTCCloud",
+        "mangledName": "$s15tencent_rtc_sdk15TencentRTCCloudC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "TXLiteAVSDK_Professional",
+        "printedName": "TXLiteAVSDK_Professional",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "TXCustomBeautyProcesserPlugin",
+        "printedName": "TXCustomBeautyProcesserPlugin",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TRTCCloudManager",
+        "printedName": "TRTCCloudManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "channel",
+            "printedName": "channel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodChannel",
+                "printedName": "Flutter.FlutterMethodChannel",
+                "usr": "c:objc(cs)FlutterMethodChannel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk16TRTCCloudManagerC7channelSo20FlutterMethodChannelCvp",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCCloudManagerC7channelSo20FlutterMethodChannelCvp",
+            "moduleName": "tencent_rtc_sdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterMethodChannel",
+                    "printedName": "Flutter.FlutterMethodChannel",
+                    "usr": "c:objc(cs)FlutterMethodChannel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15tencent_rtc_sdk16TRTCCloudManagerC7channelSo20FlutterMethodChannelCvg",
+                "mangledName": "$s15tencent_rtc_sdk16TRTCCloudManagerC7channelSo20FlutterMethodChannelCvg",
+                "moduleName": "tencent_rtc_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "beautyProcesser",
+            "printedName": "beautyProcesser",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyProcesser",
+                    "printedName": "any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesser"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk16TRTCCloudManagerC15beautyProcesser33_9D31F9E5E53BF38FD31F0C84F3E9A783LL014TXCustomBeautyG6Plugin09ITXCustomtG0_pSgvp",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCCloudManagerC15beautyProcesser33_9D31F9E5E53BF38FD31F0C84F3E9A783LL014TXCustomBeautyG6Plugin09ITXCustomtG0_pSgvp",
+            "moduleName": "tencent_rtc_sdk",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "localProcessVideoFrame",
+            "printedName": "localProcessVideoFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "tencent_rtc_sdk.ProcessVideoFrame?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProcessVideoFrame",
+                    "printedName": "tencent_rtc_sdk.ProcessVideoFrame",
+                    "usr": "c:@M@tencent_rtc_sdk@objc(cs)ProcessVideoFrame"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk16TRTCCloudManagerC22localProcessVideoFrame33_9D31F9E5E53BF38FD31F0C84F3E9A783LLAA0ghI0CSgvp",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCCloudManagerC22localProcessVideoFrame33_9D31F9E5E53BF38FD31F0C84F3E9A783LLAA0ghI0CSgvp",
+            "moduleName": "tencent_rtc_sdk",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(channel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCCloudManager",
+                "printedName": "tencent_rtc_sdk.TRTCCloudManager",
+                "usr": "s:15tencent_rtc_sdk16TRTCCloudManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodChannel",
+                "printedName": "Flutter.FlutterMethodChannel",
+                "usr": "c:objc(cs)FlutterMethodChannel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk16TRTCCloudManagerC7channelACSo20FlutterMethodChannelC_tcfc",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCCloudManagerC7channelACSo20FlutterMethodChannelC_tcfc",
+            "moduleName": "tencent_rtc_sdk",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk16TRTCCloudManagerC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCCloudManagerC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "tencent_rtc_sdk",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15tencent_rtc_sdk16TRTCCloudManagerC",
+        "mangledName": "$s15tencent_rtc_sdk16TRTCCloudManagerC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TXLiteAVSDK_Professional",
+        "printedName": "TXLiteAVSDK_Professional",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TRTCLogger",
+        "printedName": "TRTCLogger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(file:line:function:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk10TRTCLoggerC4info4file4line8function7contentySS_SiS2StFZ",
+            "mangledName": "$s15tencent_rtc_sdk10TRTCLoggerC4info4file4line8function7contentySS_SiS2StFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(file:line:function:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk10TRTCLoggerC5error4file4line8function7contentySS_SiS2StFZ",
+            "mangledName": "$s15tencent_rtc_sdk10TRTCLoggerC5error4file4line8function7contentySS_SiS2StFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "txf_log",
+            "printedName": "txf_log(module:level:file:line:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk10TRTCLoggerC7txf_log6module5level4file4line7messageySS_SiSSSiSStFZ",
+            "mangledName": "$s15tencent_rtc_sdk10TRTCLoggerC7txf_log6module5level4file4line7messageySS_SiSSSiSStFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCLogger",
+                "printedName": "tencent_rtc_sdk.TRTCLogger",
+                "usr": "s:15tencent_rtc_sdk10TRTCLoggerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk10TRTCLoggerCACycfc",
+            "mangledName": "$s15tencent_rtc_sdk10TRTCLoggerCACycfc",
+            "moduleName": "tencent_rtc_sdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15tencent_rtc_sdk10TRTCLoggerC",
+        "mangledName": "$s15tencent_rtc_sdk10TRTCLoggerC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "TXLiteAVSDK_Professional",
+        "printedName": "TXLiteAVSDK_Professional",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TRTCPlatformView",
+        "printedName": "TRTCPlatformView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "renderView",
+            "printedName": "renderView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk16TRTCPlatformViewC06renderE033_9DE236F312D2723565F0AA24A5E8EFE2LLSo6UIViewCvp",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCPlatformViewC06renderE033_9DE236F312D2723565F0AA24A5E8EFE2LLSo6UIViewCvp",
+            "moduleName": "tencent_rtc_sdk",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "frame",
+            "printedName": "frame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk16TRTCPlatformViewC5frame33_9DE236F312D2723565F0AA24A5E8EFE2LLSo6CGRectVvp",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCPlatformViewC5frame33_9DE236F312D2723565F0AA24A5E8EFE2LLSo6CGRectVvp",
+            "moduleName": "tencent_rtc_sdk",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "channel",
+            "printedName": "channel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodChannel",
+                "printedName": "Flutter.FlutterMethodChannel",
+                "usr": "c:objc(cs)FlutterMethodChannel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk16TRTCPlatformViewC7channel33_9DE236F312D2723565F0AA24A5E8EFE2LLSo20FlutterMethodChannelCvp",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCPlatformViewC7channel33_9DE236F312D2723565F0AA24A5E8EFE2LLSo20FlutterMethodChannelCvp",
+            "moduleName": "tencent_rtc_sdk",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCPlatformView",
+                "printedName": "tencent_rtc_sdk.TRTCPlatformView",
+                "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk16TRTCPlatformViewCyACSo6CGRectV_So22FlutterBinaryMessenger_ps5Int64Vtcfc",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCPlatformViewCyACSo6CGRectV_So22FlutterBinaryMessenger_ps5Int64Vtcfc",
+            "moduleName": "tencent_rtc_sdk",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "view",
+            "printedName": "view()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformView(im)view",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCPlatformViewC4viewSo6UIViewCyF",
+            "moduleName": "tencent_rtc_sdk",
+            "isOpen": true,
+            "objc_name": "view",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCPlatformView",
+                "printedName": "tencent_rtc_sdk.TRTCPlatformView",
+                "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformView(im)init",
+            "mangledName": "$s15tencent_rtc_sdk16TRTCPlatformViewCACycfc",
+            "moduleName": "tencent_rtc_sdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformView",
+        "mangledName": "$s15tencent_rtc_sdk16TRTCPlatformViewC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TRTCPlatformViewFactory",
+        "printedName": "TRTCPlatformViewFactory",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15tencent_rtc_sdk23TRTCPlatformViewFactoryC7message33_71175E90B508ADC49F1363AA25729C11LLSo22FlutterBinaryMessenger_pvp",
+            "mangledName": "$s15tencent_rtc_sdk23TRTCPlatformViewFactoryC7message33_71175E90B508ADC49F1363AA25729C11LLSo22FlutterBinaryMessenger_pvp",
+            "moduleName": "tencent_rtc_sdk",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCPlatformViewFactory",
+                "printedName": "tencent_rtc_sdk.TRTCPlatformViewFactory",
+                "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformViewFactory"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "any Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk23TRTCPlatformViewFactoryC7messageACSo22FlutterBinaryMessenger_p_tcfc",
+            "mangledName": "$s15tencent_rtc_sdk23TRTCPlatformViewFactoryC7messageACSo22FlutterBinaryMessenger_p_tcfc",
+            "moduleName": "tencent_rtc_sdk",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(withFrame:viewIdentifier:arguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPlatformView",
+                "printedName": "any Flutter.FlutterPlatformView",
+                "usr": "c:objc(pl)FlutterPlatformView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformViewFactory(im)createWithFrame:viewIdentifier:arguments:",
+            "mangledName": "$s15tencent_rtc_sdk23TRTCPlatformViewFactoryC6create9withFrame14viewIdentifier9argumentsSo015FlutterPlatformE0_pSo6CGRectV_s5Int64VypSgtF",
+            "moduleName": "tencent_rtc_sdk",
+            "isOpen": true,
+            "objc_name": "createWithFrame:viewIdentifier:arguments:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TRTCPlatformViewFactory",
+                "printedName": "tencent_rtc_sdk.TRTCPlatformViewFactory",
+                "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformViewFactory"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformViewFactory(im)init",
+            "mangledName": "$s15tencent_rtc_sdk23TRTCPlatformViewFactoryCACycfc",
+            "moduleName": "tencent_rtc_sdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@tencent_rtc_sdk@objc(cs)TRTCPlatformViewFactory",
+        "mangledName": "$s15tencent_rtc_sdk23TRTCPlatformViewFactoryC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "tencent_rtc_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Utils",
+        "printedName": "Utils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getParamByKey",
+            "printedName": "getParamByKey(call:param:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk5UtilsC13getParamByKey4call5param6resultypSgSo17FlutterMethodCallC_SSyAHctFZ",
+            "mangledName": "$s15tencent_rtc_sdk5UtilsC13getParamByKey4call5param6resultypSgSo17FlutterMethodCallC_SSyAHctFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getValueInMap",
+            "printedName": "getValueInMap(map:key:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk5UtilsC13getValueInMap3map3key6resultypSgSDySSypG_SSyAHctFZ",
+            "mangledName": "$s15tencent_rtc_sdk5UtilsC13getValueInMap3map3key6resultypSgSDySSypG_SSyAHctFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getParamByKeyCanBeNull",
+            "printedName": "getParamByKeyCanBeNull(call:param:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15tencent_rtc_sdk5UtilsC22getParamByKeyCanBeNull4call5param6resultypSgSo17FlutterMethodCallC_SSyAHctFZ",
+            "mangledName": "$s15tencent_rtc_sdk5UtilsC22getParamByKeyCanBeNull4call5param6resultypSgSo17FlutterMethodCallC_SSyAHctFZ",
+            "moduleName": "tencent_rtc_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Utils",
+                "printedName": "tencent_rtc_sdk.Utils",
+                "usr": "s:15tencent_rtc_sdk5UtilsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15tencent_rtc_sdk5UtilsCACycfc",
+            "mangledName": "$s15tencent_rtc_sdk5UtilsCACycfc",
+            "moduleName": "tencent_rtc_sdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15tencent_rtc_sdk5UtilsC",
+        "mangledName": "$s15tencent_rtc_sdk5UtilsC",
+        "moduleName": "tencent_rtc_sdk",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 5,
+      "value": "-6001"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 5,
+      "value": "-6002"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 5,
+      "value": "-6101"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 5,
+      "value": "-6102"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 5,
+      "value": "-6103"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 5,
+      "value": "-6104"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 5,
+      "value": "-6105"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 5,
+      "value": "-6106"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 656,
+      "length": 5,
+      "value": "-6201"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 5,
+      "value": "-6202"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 728,
+      "length": 5,
+      "value": "-6203"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 764,
+      "length": 5,
+      "value": "-6204"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 1,
+      "value": "-6001"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 1,
+      "value": "-6002"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "-6101"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "-6102"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 1,
+      "value": "-6103"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 1,
+      "value": "-6104"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 1,
+      "value": "-6105"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 1,
+      "value": "-6106"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 656,
+      "length": 1,
+      "value": "-6201"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 1,
+      "value": "-6202"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 728,
+      "length": 1,
+      "value": "-6203"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 764,
+      "length": 1,
+      "value": "-6204"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 1,
+      "value": "-6001"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 1,
+      "value": "-6002"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "-6101"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "-6102"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 1,
+      "value": "-6103"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 490,
+      "length": 1,
+      "value": "-6104"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 1,
+      "value": "-6105"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 1,
+      "value": "-6106"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 656,
+      "length": 1,
+      "value": "-6201"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 692,
+      "length": 1,
+      "value": "-6202"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 728,
+      "length": 1,
+      "value": "-6203"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 764,
+      "length": 1,
+      "value": "-6204"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/ImageIO.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/utils\/ProcessVideoFrame.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 17,
+      "value": "\"tencent_rtc_sdk.ProcessVideoFrame\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/TencentRTCCloud.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 19,
+      "value": "\"live_beauty_queue\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/render\/TRTCPlatformView.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 16,
+      "value": "\"tencent_rtc_sdk.TRTCPlatformView\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/tencent_rtc_sdk-12.6.3\/ios\/Classes\/render\/TRTCPlatformViewFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 139,
+      "length": 23,
+      "value": "\"tencent_rtc_sdk.TRTCPlatformViewFactory\""
+    }
+  ]
+}

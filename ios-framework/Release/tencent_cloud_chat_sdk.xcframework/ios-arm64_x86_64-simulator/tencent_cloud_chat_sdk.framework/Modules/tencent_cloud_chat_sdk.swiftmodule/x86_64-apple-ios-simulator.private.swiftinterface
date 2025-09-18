@@ -1,0 +1,29 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name tencent_cloud_chat_sdk
+import Flutter
+import Foundation
+import ImSDK_Plus
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import tencent_cloud_chat_sdk
+@_hasMissingDesignatedInitializers public class CommonUtils {
+  public static func getParam(call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult, param: Swift.String) -> Any?
+  public static func resultFailed(desc: Swift.String? = "failed", code: Swift.Int32? = 0, call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public static func resultFailed(desc: Swift.String? = "failed", code: Swift.Int32? = -1, data: Swift.Dictionary<Swift.String, Any>, call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public static func resultSuccess(desc: Swift.String = "ok", call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult, data: Any = NSNull())
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class TencentCloudChatSdkPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  public static var channels: [Flutter.FlutterMethodChannel]
+  public var channel: Flutter.FlutterMethodChannel?
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func detachFromEngine(for registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  public static func invokeListener(type: Swift.UInt32, method: Swift.String, data: Any?, listenerUuid: Swift.String?)
+  @objc override dynamic public init()
+  @objc deinit
+}

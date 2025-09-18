@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_menu_left</title>
+    <g id="课件管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="课件管理_图标汇总" transform="translate(-456.000000, -639.000000)">
+            <g id="ic_menu_left" transform="translate(472.000000, 655.000000) scale(-1, 1) translate(-472.000000, -655.000000) translate(456.000000, 639.000000)">
+                <rect id="矩形" transform="translate(16.000000, 16.000000) scale(-1, 1) translate(-16.000000, -16.000000) " x="0" y="0" width="32" height="32"></rect>
+                <polyline id="路径-13" stroke="#FFFFFF" stroke-width="3" transform="translate(16.129626, 16.028916) scale(-1, 1) translate(-16.129626, -16.028916) " points="20.7769445 8.02891577 11.4823073 16.2908109 20.7769445 24.0289158"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

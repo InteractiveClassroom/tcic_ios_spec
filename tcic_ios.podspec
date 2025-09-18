@@ -8,9 +8,10 @@ Pod::Spec.new do |s|
   s.author           = { 'YourName' => 'your.email@example.com' }
   s.platform         = :ios, '12.0'  # 修改为 12.0 以避免警告
   
-  s.source = { :http => "https://ios.qcloudclass.com/#{s.version}/tcic_ios-#{s.version}.zip" }
+  s.source           = { :git => 'https://github.com/InteractiveClassroom/tcic_ios_spec.git', :tag => s.version.to_s }
 
-  s.vendored_frameworks = 'build/ios-framework/Release/*.xcframework'
+
+  s.vendored_frameworks = 'ios-framework/Release/*.xcframework'
   s.source_files = 'TCIC_IOS/**/*.{swift,h,m}'
 
   s.dependency 'TXIMSDK_Plus_iOS_XCFramework', "8.6.7019"

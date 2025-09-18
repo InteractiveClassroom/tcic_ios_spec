@@ -1,0 +1,50 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name live_flutter_plugin
+import AVFoundation
+import Flutter
+import Foundation
+import Swift
+import TXCustomBeautyProcesserPlugin
+import TXLiteAVSDK_Professional
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import live_flutter_plugin
+@_hasMissingDesignatedInitializers public class JsonUtil {
+  public static func toModel<T>(_ type: T.Type, value: Any?) -> T? where T : Swift.Decodable
+  public static func toModel<T>(_ type: T.Type, value: Any) -> T? where T : Swift.Decodable
+  public static func getDictionaryFromJSONString(jsonString: Swift.String) -> [Swift.String : Any]
+  public static func toJson(_ object: Any) -> Any
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class MethodUtils {
+  public static func getMethodParams<T>(call: Flutter.FlutterMethodCall, key: Swift.String, resultType: T.Type) -> T?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class FlutterResultUtils {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class VideoFrameUtils {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ConvertBeautyFrame : ObjectiveC.NSObject {
+  public static func convertToV2LiveBufferType(beautyBufferType: TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType) -> TXLiteAVSDK_Professional.V2TXLiveBufferType
+  public static func convertToTRTCBufferType(beautyBufferType: TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType) -> TXLiteAVSDK_Professional.TRTCVideoBufferType
+  public static func convertToV2LivePixelFormat(beautyPixelFormat: TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat) -> TXLiteAVSDK_Professional.V2TXLivePixelFormat
+  public static func convertToTRTCPixelFormat(beautyPixelFormat: TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat) -> TXLiteAVSDK_Professional.TRTCVideoPixelFormat
+  public static func convertV2VideoFrame(v2VideoFrame: TXLiteAVSDK_Professional.V2TXLiveVideoFrame) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame
+  public static func convertTRTCVideoFrame(trtcVideoFrame: TXLiteAVSDK_Professional.TRTCVideoFrame) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class TXLivePluginManager : ObjectiveC.NSObject {
+  @objc deinit
+}
+extension live_flutter_plugin.TXLivePluginManager : Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public static func register(customBeautyProcesserFactory: any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory)
+  @objc public static func getBeautyInstance() -> (any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory)?
+  @objc dynamic public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+}

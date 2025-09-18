@@ -1,0 +1,2395 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TXCustomBeautyProcesserPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ITXCustomBeautyProcesserFactory",
+        "printedName": "ITXCustomBeautyProcesserFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createCustomBeautyProcesser",
+            "printedName": "createCustomBeautyProcesser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyProcesser",
+                "printedName": "any TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesser"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesserFactory(im)createCustomBeautyProcesser",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustombC7FactoryP012createCustombC0AA0ebC0_pyF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory>",
+            "sugared_genericSig": "<Self where Self : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroyCustomBeautyProcesser",
+            "printedName": "destroyCustomBeautyProcesser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesserFactory(im)destroyCustomBeautyProcesser",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustombC7FactoryP013destroyCustombC0yyF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory>",
+            "sugared_genericSig": "<Self where Self : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesserFactory>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesserFactory",
+        "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustombC7FactoryP",
+        "moduleName": "TXCustomBeautyProcesserPlugin",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ITXCustomBeautyProcesser",
+        "printedName": "ITXCustomBeautyProcesser",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getSupportedPixelFormat",
+            "printedName": "getSupportedPixelFormat()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyPixelFormat",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesser(im)getSupportedPixelFormat",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustombC0P23getSupportedPixelFormatAA0ebhI0OyF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser>",
+            "sugared_genericSig": "<Self where Self : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSupportedBufferType",
+            "printedName": "getSupportedBufferType()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyBufferType",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesser(im)getSupportedBufferType",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustombC0P22getSupportedBufferTypeAA0ebhI0OyF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser>",
+            "sugared_genericSig": "<Self where Self : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onProcessVideoFrame",
+            "printedName": "onProcessVideoFrame(srcFrame:dstFrame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyVideoFrame",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyVideoFrame",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyVideoFrame",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesser(im)onProcessVideoFrameWithSrcFrame:dstFrame:",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustombC0P19onProcessVideoFrame03srcI003dstI0AA0ebhI0CAH_AHtF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "genericSig": "<τ_0_0 where τ_0_0 : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser>",
+            "sugared_genericSig": "<Self where Self : TXCustomBeautyProcesserPlugin.ITXCustomBeautyProcesser>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(pl)ITXCustomBeautyProcesser",
+        "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustombC0P",
+        "moduleName": "TXCustomBeautyProcesserPlugin",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TXCustomBeautyProcesserPlugin",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ITXCustomBeautyBufferType",
+        "printedName": "ITXCustomBeautyBufferType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Unknown",
+            "printedName": "Unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyBufferType",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyBufferType",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType@ITXCustomBeautyBufferTypeUnknown",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO7UnknownyA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "PixelBuffer",
+            "printedName": "PixelBuffer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyBufferType",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyBufferType",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType@ITXCustomBeautyBufferTypePixelBuffer",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO05PixelF0yA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "Data",
+            "printedName": "Data",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyBufferType",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyBufferType",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType@ITXCustomBeautyBufferTypeData",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO4DatayA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "Texture",
+            "printedName": "Texture",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyBufferType",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyBufferType",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType@ITXCustomBeautyBufferTypeTexture",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO7TextureyA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyBufferType",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO8rawValueSivp",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO8rawValueSivp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO8rawValueSivg",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO8rawValueSivg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType",
+        "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10BufferTypeO",
+        "moduleName": "TXCustomBeautyProcesserPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ITXCustomBeautyPixelFormat",
+        "printedName": "ITXCustomBeautyPixelFormat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Unknown",
+            "printedName": "Unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyPixelFormat",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyPixelFormat",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat@ITXCustomBeautyPixelFormatUnknown",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO7UnknownyA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "I420",
+            "printedName": "I420",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyPixelFormat",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyPixelFormat",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat@ITXCustomBeautyPixelFormatI420",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO4I420yA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "Texture2D",
+            "printedName": "Texture2D",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyPixelFormat",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyPixelFormat",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat@ITXCustomBeautyPixelFormatTexture2D",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO9Texture2DyA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "BGRA",
+            "printedName": "BGRA",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyPixelFormat",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyPixelFormat",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat@ITXCustomBeautyPixelFormatBGRA",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO4BGRAyA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "NV12",
+            "printedName": "NV12",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyPixelFormat",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyPixelFormat",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat@ITXCustomBeautyPixelFormatNV12",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO4NV12yA2CmF",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyPixelFormat",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO8rawValueACSgSi_tcfc",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO8rawValueACSgSi_tcfc",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO8rawValueSivp",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO8rawValueSivp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO8rawValueSivg",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO8rawValueSivg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat",
+        "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB11PixelFormatO",
+        "moduleName": "TXCustomBeautyProcesserPlugin",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ITXCustomBeautyVideoFrame",
+        "printedName": "ITXCustomBeautyVideoFrame",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ITXCustomBeautyRotation",
+            "printedName": "ITXCustomBeautyRotation",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "rotation_0",
+                "printedName": "rotation_0",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyRotation",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                        "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ITXCustomBeautyRotation",
+                            "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO10rotation_0yA2EmF",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO10rotation_0yA2EmF",
+                "moduleName": "TXCustomBeautyProcesserPlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "rotation_90",
+                "printedName": "rotation_90",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyRotation",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                        "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ITXCustomBeautyRotation",
+                            "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO11rotation_90yA2EmF",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO11rotation_90yA2EmF",
+                "moduleName": "TXCustomBeautyProcesserPlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "rotation_180",
+                "printedName": "rotation_180",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyRotation",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                        "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ITXCustomBeautyRotation",
+                            "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO12rotation_180yA2EmF",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO12rotation_180yA2EmF",
+                "moduleName": "TXCustomBeautyProcesserPlugin"
+              },
+              {
+                "kind": "Var",
+                "name": "rotation_270",
+                "printedName": "rotation_270",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation.Type) -> TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyRotation",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                        "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ITXCustomBeautyRotation",
+                            "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO12rotation_270yA2EmF",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO12rotation_270yA2EmF",
+                "moduleName": "TXCustomBeautyProcesserPlugin"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyRotation",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                        "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO8rawValueAESgSi_tcfc",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO8rawValueAESgSi_tcfc",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO8rawValueSivp",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO8rawValueSivp",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO8rawValueSivg",
+                    "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO8rawValueSivg",
+                    "moduleName": "TXCustomBeautyProcesserPlugin",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pixelFormat",
+            "printedName": "pixelFormat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyPixelFormat",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelFormatAA0eb5PixelI0OSgvp",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelFormatAA0eb5PixelI0OSgvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyPixelFormat",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelFormatAA0eb5PixelI0OSgvg",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelFormatAA0eb5PixelI0OSgvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyPixelFormat",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyPixelFormat",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyPixelFormat"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelFormatAA0eb5PixelI0OSgvs",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelFormatAA0eb5PixelI0OSgvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelFormatAA0eb5PixelI0OSgvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelFormatAA0eb5PixelI0OSgvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bufferType",
+            "printedName": "bufferType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyBufferType",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                    "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC10bufferTypeAA0eb6BufferI0OSgvp",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC10bufferTypeAA0eb6BufferI0OSgvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyBufferType",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC10bufferTypeAA0eb6BufferI0OSgvg",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC10bufferTypeAA0eb6BufferI0OSgvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ITXCustomBeautyBufferType",
+                        "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyBufferType",
+                        "usr": "c:@M@TXCustomBeautyProcesserPlugin@E@ITXCustomBeautyBufferType"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC10bufferTypeAA0eb6BufferI0OSgvs",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC10bufferTypeAA0eb6BufferI0OSgvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC10bufferTypeAA0eb6BufferI0OSgvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC10bufferTypeAA0eb6BufferI0OSgvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(py)data",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC4data10Foundation4DataVSgvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)data",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC4data10Foundation4DataVSgvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)setData:",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC4data10Foundation4DataVSgvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC4data10Foundation4DataVSgvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC4data10Foundation4DataVSgvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pixelBuffer",
+            "printedName": "pixelBuffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(py)pixelBuffer",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelBufferSo11CVBufferRefaSgvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)pixelBuffer",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelBufferSo11CVBufferRefaSgvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)setPixelBuffer:",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelBufferSo11CVBufferRefaSgvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelBufferSo11CVBufferRefaSgvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC11pixelBufferSo11CVBufferRefaSgvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(py)width",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC5widthSuvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)width",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC5widthSuvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)setWidth:",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC5widthSuvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC5widthSuvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC5widthSuvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(py)height",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC6heightSuvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)height",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC6heightSuvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)setHeight:",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC6heightSuvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC6heightSuvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC6heightSuvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rotation",
+            "printedName": "rotation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyRotation",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC8rotationAC0eB8RotationOvp",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC8rotationAC0eB8RotationOvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyRotation",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                    "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC8rotationAC0eB8RotationOvg",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC8rotationAC0eB8RotationOvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ITXCustomBeautyRotation",
+                    "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame.ITXCustomBeautyRotation",
+                    "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC0eB8RotationO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC8rotationAC0eB8RotationOvs",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC8rotationAC0eB8RotationOvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC8rotationAC0eB8RotationOvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC8rotationAC0eB8RotationOvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textureId",
+            "printedName": "textureId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(py)textureId",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9textureIds6UInt32Vvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)textureId",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9textureIds6UInt32Vvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)setTextureId:",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9textureIds6UInt32Vvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9textureIds6UInt32VvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9textureIds6UInt32VvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(py)timestamp",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9timestamps6UInt64Vvp",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)timestamp",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9timestamps6UInt64Vvg",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)setTimestamp:",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9timestamps6UInt64Vvs",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9timestamps6UInt64VvM",
+                "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC9timestamps6UInt64VvM",
+                "moduleName": "TXCustomBeautyProcesserPlugin",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ITXCustomBeautyVideoFrame",
+                "printedName": "TXCustomBeautyProcesserPlugin.ITXCustomBeautyVideoFrame",
+                "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame(im)init",
+            "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameCACycfc",
+            "moduleName": "TXCustomBeautyProcesserPlugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TXCustomBeautyProcesserPlugin@objc(cs)ITXCustomBeautyVideoFrame",
+        "mangledName": "$s29TXCustomBeautyProcesserPlugin09ITXCustomB10VideoFrameC",
+        "moduleName": "TXCustomBeautyProcesserPlugin",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 194,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 194,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 352,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 352,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 617,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 617,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 617,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 647,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1220,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1423,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/TXCustomBeautyProcesserPlugin\/beauty_processer_plugin\/iOS\/Classes\/ITXCustomBeautyVideoFrame.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1527,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

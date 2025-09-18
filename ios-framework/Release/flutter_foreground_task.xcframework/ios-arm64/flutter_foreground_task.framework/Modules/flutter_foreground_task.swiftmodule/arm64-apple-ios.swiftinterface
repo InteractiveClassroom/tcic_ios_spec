@@ -1,0 +1,49 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name flutter_foreground_task
+import BackgroundTasks
+import Flutter
+import Foundation
+import Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import flutter_foreground_task
+public protocol FlutterForegroundTaskLifecycleListener : AnyObject {
+  func onEngineCreate(flutterEngine: Flutter.FlutterEngine?)
+  func onTaskStart(starter: flutter_foreground_task.FlutterForegroundTaskStarter)
+  func onTaskRepeatEvent()
+  func onTaskDestroy()
+  func onEngineWillDestroy()
+}
+public enum FlutterForegroundTaskStarter : Swift.Int {
+  case DEVELOPER
+  case SYSTEM
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class SwiftFlutterForegroundTaskPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public static func setPluginRegistrantCallback(_ callback: Flutter.FlutterPluginRegistrantCallback)
+  public static func addTaskLifecycleListener(_ listener: any flutter_foreground_task.FlutterForegroundTaskLifecycleListener)
+  public static func removeTaskLifecycleListener(_ listener: any flutter_foreground_task.FlutterForegroundTaskLifecycleListener)
+  @objc public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [Swift.AnyHashable : Any] = [:]) -> Swift.Bool
+  @objc public func application(_ application: UIKit.UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void) -> Swift.Bool
+  @objc public func applicationDidEnterBackground(_ application: UIKit.UIApplication)
+  @objc public func applicationWillTerminate(_ application: UIKit.UIApplication)
+  @available(iOS 10.0, *)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @available(iOS 10.0, *)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  public static var refreshIdentifier: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension flutter_foreground_task.FlutterForegroundTaskStarter : Swift.Equatable {}
+extension flutter_foreground_task.FlutterForegroundTaskStarter : Swift.Hashable {}
+extension flutter_foreground_task.FlutterForegroundTaskStarter : Swift.RawRepresentable {}

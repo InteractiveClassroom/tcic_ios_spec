@@ -1,0 +1,4854 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PromiseError",
+        "printedName": "PromiseError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.PromiseError.Type) -> Hydra.PromiseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseError",
+                    "printedName": "Hydra.PromiseError",
+                    "usr": "s:5Hydra12PromiseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.PromiseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseError",
+                        "printedName": "Hydra.PromiseError",
+                        "usr": "s:5Hydra12PromiseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra12PromiseErrorO7timeoutyA2CmF",
+            "mangledName": "$s5Hydra12PromiseErrorO7timeoutyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "rejected",
+            "printedName": "rejected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.PromiseError.Type) -> Hydra.PromiseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseError",
+                    "printedName": "Hydra.PromiseError",
+                    "usr": "s:5Hydra12PromiseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.PromiseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseError",
+                        "printedName": "Hydra.PromiseError",
+                        "usr": "s:5Hydra12PromiseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra12PromiseErrorO8rejectedyA2CmF",
+            "mangledName": "$s5Hydra12PromiseErrorO8rejectedyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidInput",
+            "printedName": "invalidInput",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.PromiseError.Type) -> Hydra.PromiseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseError",
+                    "printedName": "Hydra.PromiseError",
+                    "usr": "s:5Hydra12PromiseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.PromiseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseError",
+                        "printedName": "Hydra.PromiseError",
+                        "usr": "s:5Hydra12PromiseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra12PromiseErrorO12invalidInputyA2CmF",
+            "mangledName": "$s5Hydra12PromiseErrorO12invalidInputyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidContext",
+            "printedName": "invalidContext",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.PromiseError.Type) -> Hydra.PromiseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseError",
+                    "printedName": "Hydra.PromiseError",
+                    "usr": "s:5Hydra12PromiseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.PromiseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseError",
+                        "printedName": "Hydra.PromiseError",
+                        "usr": "s:5Hydra12PromiseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra12PromiseErrorO14invalidContextyA2CmF",
+            "mangledName": "$s5Hydra12PromiseErrorO14invalidContextyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "attemptsFailed",
+            "printedName": "attemptsFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.PromiseError.Type) -> Hydra.PromiseError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseError",
+                    "printedName": "Hydra.PromiseError",
+                    "usr": "s:5Hydra12PromiseErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.PromiseError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseError",
+                        "printedName": "Hydra.PromiseError",
+                        "usr": "s:5Hydra12PromiseErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra12PromiseErrorO14attemptsFailedyA2CmF",
+            "mangledName": "$s5Hydra12PromiseErrorO14attemptsFailedyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PromiseError",
+                "printedName": "Hydra.PromiseError",
+                "usr": "s:5Hydra12PromiseErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PromiseError",
+                "printedName": "Hydra.PromiseError",
+                "usr": "s:5Hydra12PromiseErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra12PromiseErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5Hydra12PromiseErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "Hydra",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra12PromiseErrorO9hashValueSivp",
+            "mangledName": "$s5Hydra12PromiseErrorO9hashValueSivp",
+            "moduleName": "Hydra",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra12PromiseErrorO9hashValueSivg",
+                "mangledName": "$s5Hydra12PromiseErrorO9hashValueSivg",
+                "moduleName": "Hydra",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra12PromiseErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5Hydra12PromiseErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "Hydra",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Hydra12PromiseErrorO",
+        "mangledName": "$s5Hydra12PromiseErrorO",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvalidatableProtocol",
+        "printedName": "InvalidatableProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isCancelled",
+            "printedName": "isCancelled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra21InvalidatableProtocolP11isCancelledSbvp",
+            "mangledName": "$s5Hydra21InvalidatableProtocolP11isCancelledSbvp",
+            "moduleName": "Hydra",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra21InvalidatableProtocolP11isCancelledSbvg",
+                "mangledName": "$s5Hydra21InvalidatableProtocolP11isCancelledSbvg",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0 where τ_0_0 : Hydra.InvalidatableProtocol>",
+                "sugared_genericSig": "<Self where Self : Hydra.InvalidatableProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5Hydra21InvalidatableProtocolP",
+        "mangledName": "$s5Hydra21InvalidatableProtocolP",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvalidationToken",
+        "printedName": "InvalidationToken",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isCancelled",
+            "printedName": "isCancelled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra17InvalidationTokenC11isCancelledSbvp",
+            "mangledName": "$s5Hydra17InvalidationTokenC11isCancelledSbvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra17InvalidationTokenC11isCancelledSbvg",
+                "mangledName": "$s5Hydra17InvalidationTokenC11isCancelledSbvg",
+                "moduleName": "Hydra",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra17InvalidationTokenC11isCancelledSbvs",
+                "mangledName": "$s5Hydra17InvalidationTokenC11isCancelledSbvs",
+                "moduleName": "Hydra",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra17InvalidationTokenC11isCancelledSbvM",
+                "mangledName": "$s5Hydra17InvalidationTokenC11isCancelledSbvM",
+                "moduleName": "Hydra",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "invalidate",
+            "printedName": "invalidate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra17InvalidationTokenC10invalidateyyF",
+            "mangledName": "$s5Hydra17InvalidationTokenC10invalidateyyF",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvalidationToken",
+                "printedName": "Hydra.InvalidationToken",
+                "usr": "s:5Hydra17InvalidationTokenC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Hydra17InvalidationTokenCACycfc",
+            "mangledName": "$s5Hydra17InvalidationTokenCACycfc",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5Hydra17InvalidationTokenC",
+        "mangledName": "$s5Hydra17InvalidationTokenC",
+        "moduleName": "Hydra",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "InvalidatableProtocol",
+            "printedName": "InvalidatableProtocol",
+            "usr": "s:5Hydra21InvalidatableProtocolP",
+            "mangledName": "$s5Hydra21InvalidatableProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PromiseStatus",
+        "printedName": "PromiseStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra13PromiseStatusV6cancelyycvp",
+            "mangledName": "$s5Hydra13PromiseStatusV6cancelyycvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra13PromiseStatusV6cancelyycvg",
+                "mangledName": "$s5Hydra13PromiseStatusV6cancelyycvg",
+                "moduleName": "Hydra",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isCancelled",
+            "printedName": "isCancelled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra13PromiseStatusV11isCancelledSbvp",
+            "mangledName": "$s5Hydra13PromiseStatusV11isCancelledSbvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra13PromiseStatusV11isCancelledSbvg",
+                "mangledName": "$s5Hydra13PromiseStatusV11isCancelledSbvg",
+                "moduleName": "Hydra",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5Hydra13PromiseStatusV",
+        "mangledName": "$s5Hydra13PromiseStatusV",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Context",
+        "printedName": "Context",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "main",
+            "printedName": "main",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.Context.Type) -> Hydra.Context",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.Context.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "Hydra.Context",
+                        "usr": "s:5Hydra7ContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra7ContextO4mainyA2CmF",
+            "mangledName": "$s5Hydra7ContextO4mainyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "userInteractive",
+            "printedName": "userInteractive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.Context.Type) -> Hydra.Context",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.Context.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "Hydra.Context",
+                        "usr": "s:5Hydra7ContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra7ContextO15userInteractiveyA2CmF",
+            "mangledName": "$s5Hydra7ContextO15userInteractiveyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "userInitiated",
+            "printedName": "userInitiated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.Context.Type) -> Hydra.Context",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.Context.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "Hydra.Context",
+                        "usr": "s:5Hydra7ContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra7ContextO13userInitiatedyA2CmF",
+            "mangledName": "$s5Hydra7ContextO13userInitiatedyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "utility",
+            "printedName": "utility",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.Context.Type) -> Hydra.Context",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.Context.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "Hydra.Context",
+                        "usr": "s:5Hydra7ContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra7ContextO7utilityyA2CmF",
+            "mangledName": "$s5Hydra7ContextO7utilityyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.Context.Type) -> Hydra.Context",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.Context.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "Hydra.Context",
+                        "usr": "s:5Hydra7ContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra7ContextO10backgroundyA2CmF",
+            "mangledName": "$s5Hydra7ContextO10backgroundyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.Context.Type) -> (Dispatch.DispatchQueue) -> Hydra.Context",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Dispatch.DispatchQueue) -> Hydra.Context",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "Hydra.Context",
+                        "usr": "s:5Hydra7ContextO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(queue: Dispatch.DispatchQueue)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DispatchQueue",
+                            "printedName": "Dispatch.DispatchQueue",
+                            "usr": "c:objc(cs)OS_dispatch_queue"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.Context.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Context",
+                        "printedName": "Hydra.Context",
+                        "usr": "s:5Hydra7ContextO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra7ContextO6customyACSo17OS_dispatch_queueC_tcACmF",
+            "mangledName": "$s5Hydra7ContextO6customyACSo17OS_dispatch_queueC_tcACmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "queue",
+            "printedName": "queue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra7ContextO5queueSo012OS_dispatch_C0Cvp",
+            "mangledName": "$s5Hydra7ContextO5queueSo012OS_dispatch_C0Cvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchQueue",
+                    "printedName": "Dispatch.DispatchQueue",
+                    "usr": "c:objc(cs)OS_dispatch_queue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7ContextO5queueSo012OS_dispatch_C0Cvg",
+                "mangledName": "$s5Hydra7ContextO5queueSo012OS_dispatch_C0Cvg",
+                "moduleName": "Hydra",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Hydra7ContextO",
+        "mangledName": "$s5Hydra7ContextO",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Dispatch",
+        "printedName": "Dispatch",
+        "declKind": "Import",
+        "moduleName": "Hydra"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Promise",
+        "printedName": "Promise",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra7PromiseC4nameSSSgvp",
+            "mangledName": "$s5Hydra7PromiseC4nameSSSgvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC4nameSSSgvg",
+                "mangledName": "$s5Hydra7PromiseC4nameSSSgvg",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC4nameSSSgvs",
+                "mangledName": "$s5Hydra7PromiseC4nameSSSgvs",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC4nameSSSgvM",
+                "mangledName": "$s5Hydra7PromiseC4nameSSSgvM",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "operation",
+            "printedName": "operation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PromiseStatus",
+                "printedName": "Hydra.PromiseStatus",
+                "usr": "s:5Hydra13PromiseStatusV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra7PromiseC9operationAA0B6StatusVvp",
+            "mangledName": "$s5Hydra7PromiseC9operationAA0B6StatusVvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseStatus",
+                    "printedName": "Hydra.PromiseStatus",
+                    "usr": "s:5Hydra13PromiseStatusV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC9operationAA0B6StatusVvg",
+                "mangledName": "$s5Hydra7PromiseC9operationAA0B6StatusVvg",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseStatus",
+                    "printedName": "Hydra.PromiseStatus",
+                    "usr": "s:5Hydra13PromiseStatusV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC9operationAA0B6StatusVvs",
+                "mangledName": "$s5Hydra7PromiseC9operationAA0B6StatusVvs",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC9operationAA0B6StatusVvM",
+                "mangledName": "$s5Hydra7PromiseC9operationAA0B6StatusVvM",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "result",
+            "printedName": "result",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra7PromiseC6resultxSgvp",
+            "mangledName": "$s5Hydra7PromiseC6resultxSgvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC6resultxSgvg",
+                "mangledName": "$s5Hydra7PromiseC6resultxSgvg",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra7PromiseC5errors5Error_pSgvp",
+            "mangledName": "$s5Hydra7PromiseC5errors5Error_pSgvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC5errors5Error_pSgvg",
+                "mangledName": "$s5Hydra7PromiseC5errors5Error_pSgvg",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPending",
+            "printedName": "isPending",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra7PromiseC9isPendingSbvp",
+            "mangledName": "$s5Hydra7PromiseC9isPendingSbvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC9isPendingSbvg",
+                "mangledName": "$s5Hydra7PromiseC9isPendingSbvg",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resolved:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Hydra7PromiseC8resolvedACyxGx_tcfc",
+            "mangledName": "$s5Hydra7PromiseC8resolvedACyxGx_tcfc",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Hydra7PromiseCACyxGycfc",
+            "mangledName": "$s5Hydra7PromiseCACyxGycfc",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rejected:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Hydra7PromiseC8rejectedACyxGs5Error_p_tcfc",
+            "mangledName": "$s5Hydra7PromiseC8rejectedACyxGs5Error_p_tcfc",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(in:token:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.InvalidationToken?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InvalidationToken",
+                    "printedName": "Hydra.InvalidationToken",
+                    "usr": "s:5Hydra17InvalidationTokenC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(@escaping (τ_0_0) -> (), @escaping (any Swift.Error) -> (), Hydra.PromiseStatus) throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((τ_0_0) -> (), (any Swift.Error) -> (), Hydra.PromiseStatus)",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(τ_0_0) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseStatus",
+                        "printedName": "Hydra.PromiseStatus",
+                        "usr": "s:5Hydra13PromiseStatusV"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5Hydra7PromiseC2in5token_ACyxGAA7ContextOSg_AA17InvalidationTokenCSgyyxc_ys5Error_pcAA0B6StatusVtKctcfc",
+            "mangledName": "$s5Hydra7PromiseC2in5token_ACyxGAA7ContextOSg_AA17InvalidationTokenCSgyyxc_ys5Error_pcAA0B6StatusVtKctcfc",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC7resolveyyxF",
+            "mangledName": "$s5Hydra7PromiseC7resolveyyxF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reject",
+            "printedName": "reject(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC6rejectyys5Error_pF",
+            "mangledName": "$s5Hydra7PromiseC6rejectyys5Error_pF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC6cancelyyF",
+            "mangledName": "$s5Hydra7PromiseC6cancelyyF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isCancelled",
+            "printedName": "isCancelled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra7PromiseC11isCancelledSbvp",
+            "mangledName": "$s5Hydra7PromiseC11isCancelledSbvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC11isCancelledSbvg",
+                "mangledName": "$s5Hydra7PromiseC11isCancelledSbvg",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "void",
+            "printedName": "void",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra7PromiseC4voidACyytGvp",
+            "mangledName": "$s5Hydra7PromiseC4voidACyytGvp",
+            "moduleName": "Hydra",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Promise",
+                    "printedName": "Hydra.Promise<()>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "usr": "s:5Hydra7PromiseC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra7PromiseC4voidACyytGvg",
+                "mangledName": "$s5Hydra7PromiseC4voidACyytGvg",
+                "moduleName": "Hydra",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Value>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "always",
+            "printedName": "always(in:body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC6always2in4bodyACyxGAA7ContextOSg_yyKctF",
+            "mangledName": "$s5Hydra7PromiseC6always2in4bodyACyxGAA7ContextOSg_yyKctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelled",
+            "printedName": "cancelled(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC9cancelled2in_ACyytGAA7ContextOSg_yyctF",
+            "mangledName": "$s5Hydra7PromiseC9cancelled2in_ACyytGAA7ContextOSg_yyctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "catch",
+            "printedName": "catch(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC5catch2in_ACyytGAA7ContextOSg_ys5Error_pKctF",
+            "mangledName": "$s5Hydra7PromiseC5catch2in_ACyytGAA7ContextOSg_ys5Error_pKctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "defer",
+            "printedName": "defer(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC5defer2in_ACyxGAA7ContextOSg_SdtF",
+            "mangledName": "$s5Hydra7PromiseC5defer2in_ACyxGAA7ContextOSg_SdtF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Observer",
+            "printedName": "Observer",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "onResolve",
+                "printedName": "onResolve",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "GenericFunction",
+                    "printedName": "<τ_0_0> (Hydra.Promise<τ_0_0>.Observer.Type) -> (Hydra.Context, @escaping (τ_0_0) -> ()) -> Hydra.Promise<τ_0_0>.Observer",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Hydra.Context, @escaping (τ_0_0) -> ()) -> Hydra.Promise<τ_0_0>.Observer",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Observer",
+                            "printedName": "Hydra.Promise<τ_0_0>.Observer",
+                            "usr": "s:5Hydra7PromiseC8ObserverO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Hydra.Context, (τ_0_0) -> ())",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Context",
+                                "printedName": "Hydra.Context",
+                                "usr": "s:5Hydra7ContextO"
+                              },
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "(τ_0_0) -> ()",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Void",
+                                    "printedName": "()"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GenericTypeParam",
+                                    "printedName": "τ_0_0"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Hydra.Promise<τ_0_0>.Observer.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Observer",
+                            "printedName": "Hydra.Promise<τ_0_0>.Observer",
+                            "usr": "s:5Hydra7PromiseC8ObserverO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Hydra7PromiseC8ObserverO9onResolveyAEyx_GAA7ContextO_yxctcAGmlF",
+                "mangledName": "$s5Hydra7PromiseC8ObserverO9onResolveyAEyx_GAA7ContextO_yxctcAGmlF",
+                "moduleName": "Hydra"
+              },
+              {
+                "kind": "Var",
+                "name": "onReject",
+                "printedName": "onReject",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "GenericFunction",
+                    "printedName": "<τ_0_0> (Hydra.Promise<τ_0_0>.Observer.Type) -> (Hydra.Context, @escaping (any Swift.Error) -> ()) -> Hydra.Promise<τ_0_0>.Observer",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Hydra.Context, @escaping (any Swift.Error) -> ()) -> Hydra.Promise<τ_0_0>.Observer",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Observer",
+                            "printedName": "Hydra.Promise<τ_0_0>.Observer",
+                            "usr": "s:5Hydra7PromiseC8ObserverO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Hydra.Context, (any Swift.Error) -> ())",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Context",
+                                "printedName": "Hydra.Context",
+                                "usr": "s:5Hydra7ContextO"
+                              },
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "(any Swift.Error) -> ()",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Void",
+                                    "printedName": "()"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "any Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Hydra.Promise<τ_0_0>.Observer.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Observer",
+                            "printedName": "Hydra.Promise<τ_0_0>.Observer",
+                            "usr": "s:5Hydra7PromiseC8ObserverO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Hydra7PromiseC8ObserverO8onRejectyAEyx_GAA7ContextO_ys5Error_pctcAGmlF",
+                "mangledName": "$s5Hydra7PromiseC8ObserverO8onRejectyAEyx_GAA7ContextO_ys5Error_pctcAGmlF",
+                "moduleName": "Hydra"
+              },
+              {
+                "kind": "Var",
+                "name": "onCancel",
+                "printedName": "onCancel",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "GenericFunction",
+                    "printedName": "<τ_0_0> (Hydra.Promise<τ_0_0>.Observer.Type) -> (Hydra.Context, @escaping () -> ()) -> Hydra.Promise<τ_0_0>.Observer",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Hydra.Context, @escaping () -> ()) -> Hydra.Promise<τ_0_0>.Observer",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Observer",
+                            "printedName": "Hydra.Promise<τ_0_0>.Observer",
+                            "usr": "s:5Hydra7PromiseC8ObserverO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Hydra.Context, () -> ())",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Context",
+                                "printedName": "Hydra.Context",
+                                "usr": "s:5Hydra7ContextO"
+                              },
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "() -> ()",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Void",
+                                    "printedName": "()"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Void",
+                                    "printedName": "()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Hydra.Promise<τ_0_0>.Observer.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Observer",
+                            "printedName": "Hydra.Promise<τ_0_0>.Observer",
+                            "usr": "s:5Hydra7PromiseC8ObserverO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Hydra7PromiseC8ObserverO8onCancelyAEyx_GAA7ContextO_yyctcAGmlF",
+                "mangledName": "$s5Hydra7PromiseC8ObserverO8onCancelyAEyx_GAA7ContextO_yyctcAGmlF",
+                "moduleName": "Hydra"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5Hydra7PromiseC8ObserverO",
+            "mangledName": "$s5Hydra7PromiseC8ObserverO",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "Indirect",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true
+          },
+          {
+            "kind": "Function",
+            "name": "pass",
+            "printedName": "pass(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> Hydra.Promise<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Promise",
+                    "printedName": "Hydra.Promise<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:5Hydra7PromiseC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC4pass2in_ACyxGAA7ContextOSg_ACyqd__GxKctlF",
+            "mangledName": "$s5Hydra7PromiseC4pass2in_ACyxGAA7ContextOSg_ACyqd__GxKctlF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<Value, A>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pass",
+            "printedName": "pass(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC4pass2in_ACyxGAA7ContextOSg_yxKctF",
+            "mangledName": "$s5Hydra7PromiseC4pass2in_ACyxGAA7ContextOSg_yxKctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recover",
+            "printedName": "recover(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) throws -> Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Promise",
+                    "printedName": "Hydra.Promise<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:5Hydra7PromiseC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC7recover2in_ACyxGAA7ContextOSg_AFs5Error_pKctF",
+            "mangledName": "$s5Hydra7PromiseC7recover2in_ACyxGAA7ContextOSg_AFs5Error_pKctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retry",
+            "printedName": "retry(_:delay:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, any Swift.Error) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, any Swift.Error)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC5retry_5delay_ACyxGSi_SdSbSi_s5Error_ptKctF",
+            "mangledName": "$s5Hydra7PromiseC5retry_5delay_ACyxGSi_SdSbSi_s5Error_ptKctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retryWhen",
+            "printedName": "retryWhen(_:delay:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, any Swift.Error) -> Hydra.Promise<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Promise",
+                    "printedName": "Hydra.Promise<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:5Hydra7PromiseC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, any Swift.Error)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC9retryWhen_5delay_ACyxGSi_SdACySbGSi_s5Error_ptctF",
+            "mangledName": "$s5Hydra7PromiseC9retryWhen_5delay_ACyxGSi_SdACySbGSi_s5Error_ptctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "then",
+            "printedName": "then(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> τ_1_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC4then2in_ACyqd__GAA7ContextOSg_qd__xKctlF",
+            "mangledName": "$s5Hydra7PromiseC4then2in_ACyqd__GAA7ContextOSg_qd__xKctlF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<Value, N>",
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "then",
+            "printedName": "then(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> Hydra.Promise<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Promise",
+                    "printedName": "Hydra.Promise<τ_1_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_1_0"
+                      }
+                    ],
+                    "usr": "s:5Hydra7PromiseC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC4then2in_ACyqd__GAA7ContextOSg_AFxKctlF",
+            "mangledName": "$s5Hydra7PromiseC4then2in_ACyqd__GAA7ContextOSg_AFxKctlF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0, τ_1_0>",
+            "sugared_genericSig": "<Value, N>",
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "then",
+            "printedName": "then(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC4then2in_ACyxGAA7ContextOSg_yxKctF",
+            "mangledName": "$s5Hydra7PromiseC4then2in_ACyxGAA7ContextOSg_yxKctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "timeout",
+            "printedName": "timeout(in:timeout:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC7timeout2inAD5errorACyxGAA7ContextOSg_Sds5Error_pSgtF",
+            "mangledName": "$s5Hydra7PromiseC7timeout2inAD5errorACyxGAA7ContextOSg_Sds5Error_pSgtF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) throws -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra7PromiseC8validate2in_ACyxGAA7ContextOSg_SbxKctF",
+            "mangledName": "$s5Hydra7PromiseC8validate2in_ACyxGAA7ContextOSg_SbxKctF",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Value>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5Hydra7PromiseC",
+        "mangledName": "$s5Hydra7PromiseC",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Value>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "all",
+        "printedName": "all(_:concurrency:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<[τ_0_0]>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Hydra.Promise<τ_0_0>]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3all_11concurrencyAA7PromiseCySayxGGAEyxGd_SutlF",
+        "mangledName": "$s5Hydra3all_11concurrencyAA7PromiseCySayxGGAEyxGd_SutlF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<L>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "all",
+        "printedName": "all(_:concurrency:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<[τ_0_0]>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_1"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UInt",
+            "printedName": "Swift.UInt",
+            "hasDefaultArg": true,
+            "usr": "s:Su"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3all_11concurrencyAA7PromiseCySayxGGq__SutSTR_AEyxG7ElementRt_r0_lF",
+        "mangledName": "$s5Hydra3all_11concurrencyAA7PromiseCySayxGGq__SutSTR_AEyxG7ElementRt_r0_lF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : Swift.Sequence, τ_0_1.Element == Hydra.Promise<τ_0_0>>",
+        "sugared_genericSig": "<L, S where S : Swift.Sequence, S.Element == Hydra.Promise<L>>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "any",
+        "printedName": "any(in:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Hydra.Promise<τ_0_0>]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3any2in_AA7PromiseCyxGAA7ContextOSg_AFdtlF",
+        "mangledName": "$s5Hydra3any2in_AA7PromiseCyxGAA7ContextOSg_AFdtlF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<L>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "any",
+        "printedName": "any(in:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Hydra.Promise<τ_0_0>]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3any2in_AA7PromiseCyxGAA7ContextOSg_SayAFGtlF",
+        "mangledName": "$s5Hydra3any2in_AA7PromiseCyxGAA7ContextOSg_SayAFGtlF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<L>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "async",
+        "printedName": "async(in:token:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.InvalidationToken?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvalidationToken",
+                "printedName": "Hydra.InvalidationToken",
+                "usr": "s:5Hydra17InvalidationTokenC"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Hydra.PromiseStatus) throws -> τ_0_0",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PromiseStatus",
+                "printedName": "Hydra.PromiseStatus",
+                "usr": "s:5Hydra13PromiseStatusV"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra5async2in5token_AA7PromiseCyxGAA7ContextOSg_AA17InvalidationTokenCSgxAA0E6StatusVKctlF",
+        "mangledName": "$s5Hydra5async2in5token_AA7PromiseCyxGAA7ContextOSg_AA17InvalidationTokenCSgxAA0E6StatusVKctlF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "async",
+        "printedName": "async(in:after:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Context",
+            "printedName": "Hydra.Context",
+            "usr": "s:5Hydra7ContextO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.Double?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra5async2in5after_yAA7ContextO_SdSgyyctF",
+        "mangledName": "$s5Hydra5async2in5after_yAA7ContextO_SdSgyyctF",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "..",
+        "printedName": "..",
+        "declKind": "PrefixOperator",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "Prefix",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "..",
+        "printedName": "..(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra2zzopyxAA7PromiseCyxGKlF",
+        "mangledName": "$s5Hydra2zzopyxAA7PromiseCyxGKlF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Prefix",
+          "AccessControl"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "..!",
+        "printedName": "..!",
+        "declKind": "PrefixOperator",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "Prefix",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "..!",
+        "printedName": "..!(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "τ_0_0?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3zznopyxSgAA7PromiseCyxGlF",
+        "mangledName": "$s5Hydra3zznopyxSgAA7PromiseCyxGlF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "Prefix",
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "await",
+        "printedName": "await(in:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra5await2in_xAA7ContextOSg_AA7PromiseCyxGtKlF",
+        "mangledName": "$s5Hydra5await2in_xAA7ContextOSg_AA7PromiseCyxGtKlF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "DiscardableResult",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "await",
+        "printedName": "await(in:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Context",
+            "printedName": "Hydra.Context",
+            "hasDefaultArg": true,
+            "usr": "s:5Hydra7ContextO"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(@escaping (τ_0_0) -> (), @escaping (any Swift.Error) -> (), Hydra.PromiseStatus) throws -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "((τ_0_0) -> (), (any Swift.Error) -> (), Hydra.PromiseStatus)",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseStatus",
+                    "printedName": "Hydra.PromiseStatus",
+                    "usr": "s:5Hydra13PromiseStatusV"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra5await2in_xAA7ContextO_yyxc_ys5Error_pcAA13PromiseStatusVtKctKlF",
+        "mangledName": "$s5Hydra5await2in_xAA7ContextO_yyxc_ys5Error_pcAA13PromiseStatusVtKctKlF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "DiscardableResult",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Hydra",
+        "printedName": "Hydra",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "await",
+            "printedName": "await(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Hydra.Context?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Context",
+                    "printedName": "Hydra.Context",
+                    "usr": "s:5Hydra7ContextO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5HydraAAO5await2in_xAA7ContextOSg_AA7PromiseCyxGtKlFZ",
+            "mangledName": "$s5HydraAAO5await2in_xAA7ContextOSg_AA7PromiseCyxGtKlFZ",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "await",
+            "printedName": "await(in:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "hasDefaultArg": true,
+                "usr": "s:5Hydra7ContextO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(@escaping (τ_0_0) -> (), @escaping (any Swift.Error) -> (), Hydra.PromiseStatus) throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((τ_0_0) -> (), (any Swift.Error) -> (), Hydra.PromiseStatus)",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(τ_0_0) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseStatus",
+                        "printedName": "Hydra.PromiseStatus",
+                        "usr": "s:5Hydra13PromiseStatusV"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5HydraAAO5await2in_xAA7ContextO_yyxc_ys5Error_pcAA13PromiseStatusVtKctKlFZ",
+            "mangledName": "$s5HydraAAO5await2in_xAA7ContextO_yyxc_ys5Error_pcAA13PromiseStatusVtKctKlFZ",
+            "moduleName": "Hydra",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5HydraAAO",
+        "mangledName": "$s5HydraAAO",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PromiseResolveType",
+        "printedName": "PromiseResolveType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "parallel",
+            "printedName": "parallel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.PromiseResolveType.Type) -> Hydra.PromiseResolveType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseResolveType",
+                    "printedName": "Hydra.PromiseResolveType",
+                    "usr": "s:5Hydra18PromiseResolveTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.PromiseResolveType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseResolveType",
+                        "printedName": "Hydra.PromiseResolveType",
+                        "usr": "s:5Hydra18PromiseResolveTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra18PromiseResolveTypeO8parallelyA2CmF",
+            "mangledName": "$s5Hydra18PromiseResolveTypeO8parallelyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Var",
+            "name": "series",
+            "printedName": "series",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Hydra.PromiseResolveType.Type) -> Hydra.PromiseResolveType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PromiseResolveType",
+                    "printedName": "Hydra.PromiseResolveType",
+                    "usr": "s:5Hydra18PromiseResolveTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Hydra.PromiseResolveType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PromiseResolveType",
+                        "printedName": "Hydra.PromiseResolveType",
+                        "usr": "s:5Hydra18PromiseResolveTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Hydra18PromiseResolveTypeO6seriesyA2CmF",
+            "mangledName": "$s5Hydra18PromiseResolveTypeO6seriesyA2CmF",
+            "moduleName": "Hydra"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PromiseResolveType",
+                "printedName": "Hydra.PromiseResolveType",
+                "usr": "s:5Hydra18PromiseResolveTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PromiseResolveType",
+                "printedName": "Hydra.PromiseResolveType",
+                "usr": "s:5Hydra18PromiseResolveTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra18PromiseResolveTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s5Hydra18PromiseResolveTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "Hydra",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Hydra18PromiseResolveTypeO9hashValueSivp",
+            "mangledName": "$s5Hydra18PromiseResolveTypeO9hashValueSivp",
+            "moduleName": "Hydra",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Hydra18PromiseResolveTypeO9hashValueSivg",
+                "mangledName": "$s5Hydra18PromiseResolveTypeO9hashValueSivg",
+                "moduleName": "Hydra",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Hydra18PromiseResolveTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s5Hydra18PromiseResolveTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "Hydra",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5Hydra18PromiseResolveTypeO",
+        "mangledName": "$s5Hydra18PromiseResolveTypeO",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "map",
+        "printedName": "map(_:as:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<[τ_0_1]>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "PromiseResolveType",
+            "printedName": "Hydra.PromiseResolveType",
+            "usr": "s:5Hydra18PromiseResolveTypeO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_2"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(τ_0_0) throws -> Hydra.Promise<τ_0_1>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3map_2as__AA7PromiseCySayq_GGAA7ContextOSg_AA0D11ResolveTypeOq0_AEyq_GxKct7ElementQy0_RszSTR0_r1_lF",
+        "mangledName": "$s5Hydra3map_2as__AA7PromiseCySayq_GGAA7ContextOSg_AA0D11ResolveTypeOq0_AEyq_GxKct7ElementQy0_RszSTR0_r1_lF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 == τ_0_2.Element, τ_0_2 : Swift.Sequence>",
+        "sugared_genericSig": "<A, B, S where A == S.Element, S : Swift.Sequence>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "map_series",
+        "printedName": "map_series(context:items:transform:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<[τ_0_1]>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Context",
+            "printedName": "Hydra.Context",
+            "usr": "s:5Hydra7ContextO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_2"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(τ_0_0) throws -> Hydra.Promise<τ_0_1>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra10map_series7context5items9transformAA7PromiseCySayq_GGAA7ContextO_q0_AGyq_GxKct7ElementQy0_RszSTR0_r1_lF",
+        "mangledName": "$s5Hydra10map_series7context5items9transformAA7PromiseCySayq_GGAA7ContextO_q0_AGyq_GxKct7ElementQy0_RszSTR0_r1_lF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 == τ_0_2.Element, τ_0_2 : Swift.Sequence>",
+        "sugared_genericSig": "<A, B, S where A == S.Element, S : Swift.Sequence>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "reduce",
+        "printedName": "reduce(in:_:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_1>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_2"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_1"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(τ_0_1, τ_0_0) throws -> Hydra.Promise<τ_0_1>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Hydra.Promise<τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:5Hydra7PromiseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(τ_0_1, τ_0_0)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra6reduce2in___AA7PromiseCyq_GAA7ContextOSg_q0_q_AFq__xtKct7ElementQy0_RszSTR0_r1_lF",
+        "mangledName": "$s5Hydra6reduce2in___AA7PromiseCyq_GAA7ContextOSg_q0_q_AFq__xtKct7ElementQy0_RszSTR0_r1_lF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2 where τ_0_0 == τ_0_2.Element, τ_0_2 : Swift.Sequence>",
+        "sugared_genericSig": "<A, I, S where A == S.Element, S : Swift.Sequence>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Hydra",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "zip",
+        "printedName": "zip(in:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<(τ_0_0, τ_0_1)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(τ_0_0, τ_0_1)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_1>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3zip2in__AA7PromiseCyx_q_tGAA7ContextOSg_AEyxGAEyq_Gtr0_lF",
+        "mangledName": "$s5Hydra3zip2in__AA7PromiseCyx_q_tGAA7ContextOSg_AEyxGAEyq_Gtr0_lF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<A, B>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "zip",
+        "printedName": "zip(in:a:b:c:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<(τ_0_0, τ_0_1, τ_0_2)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(τ_0_0, τ_0_1, τ_0_2)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_1>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_2>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_2"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3zip2in1a1b1cAA7PromiseCyx_q_q0_tGAA7ContextOSg_AHyxGAHyq_GAHyq0_Gtr1_lF",
+        "mangledName": "$s5Hydra3zip2in1a1b1cAA7PromiseCyx_q_q0_tGAA7ContextOSg_AHyxGAHyq_GAHyq0_Gtr1_lF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2>",
+        "sugared_genericSig": "<A, B, C>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "zip",
+        "printedName": "zip(in:a:b:c:d:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<(τ_0_0, τ_0_1, τ_0_2, τ_0_3)>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(τ_0_0, τ_0_1, τ_0_2, τ_0_3)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_2"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_3"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Hydra.Context?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Context",
+                "printedName": "Hydra.Context",
+                "usr": "s:5Hydra7ContextO"
+              }
+            ],
+            "hasDefaultArg": true,
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_1>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_1"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_2>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_2"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Promise",
+            "printedName": "Hydra.Promise<τ_0_3>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_3"
+              }
+            ],
+            "usr": "s:5Hydra7PromiseC"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5Hydra3zip2in1a1b1c1dAA7PromiseCyx_q_q0_q1_tGAA7ContextOSg_AIyxGAIyq_GAIyq0_GAIyq1_Gtr2_lF",
+        "mangledName": "$s5Hydra3zip2in1a1b1c1dAA7PromiseCyx_q_q0_q1_tGAA7ContextOSg_AIyxGAIyq_GAIyq0_GAIyq1_Gtr2_lF",
+        "moduleName": "Hydra",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2, τ_0_3>",
+        "sugared_genericSig": "<A, B, C, D>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Commons.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2840,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/DispatchTimerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 558,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/DispatchTimerWrapper.swift",
+      "kind": "Array",
+      "offset": 1045,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/DispatchTimerWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1343,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise.swift",
+      "kind": "StringLiteral",
+      "offset": 1812,
+      "length": 20,
+      "value": "\"com.mokasw.promise\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise.swift",
+      "kind": "Array",
+      "offset": 2418,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2565,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise+Await.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 24,
+      "value": "\"com.hydra.awaitcontext\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise+Retry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1678,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise+Retry.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1703,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise+Retry.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1785,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise+RetryWhen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1363,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise+RetryWhen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/Developments\/tcic_apaas_client\/tcic_client_moudle\/.ios\/Pods\/HydraAsync\/Sources\/Hydra\/Promise+RetryWhen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1500,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

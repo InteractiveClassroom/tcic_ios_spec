@@ -1,0 +1,1548 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterForegroundTaskLifecycleListener",
+        "printedName": "FlutterForegroundTaskLifecycleListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onEngineCreate",
+            "printedName": "onEngineCreate(flutterEngine:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterEngine?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterEngine",
+                    "printedName": "Flutter.FlutterEngine",
+                    "usr": "c:objc(cs)FlutterEngine"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP14onEngineCreate0aJ0ySo0dJ0CSg_tF",
+            "mangledName": "$s23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP14onEngineCreate0aJ0ySo0dJ0CSg_tF",
+            "moduleName": "flutter_foreground_task",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "sugared_genericSig": "<Self where Self : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTaskStart",
+            "printedName": "onTaskStart(starter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterForegroundTaskStarter",
+                "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter",
+                "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP02onF5Start7starteryAA0deF7StarterO_tF",
+            "mangledName": "$s23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP02onF5Start7starteryAA0deF7StarterO_tF",
+            "moduleName": "flutter_foreground_task",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "sugared_genericSig": "<Self where Self : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTaskRepeatEvent",
+            "printedName": "onTaskRepeatEvent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP02onF11RepeatEventyyF",
+            "mangledName": "$s23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP02onF11RepeatEventyyF",
+            "moduleName": "flutter_foreground_task",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "sugared_genericSig": "<Self where Self : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTaskDestroy",
+            "printedName": "onTaskDestroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP02onF7DestroyyyF",
+            "mangledName": "$s23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP02onF7DestroyyyF",
+            "moduleName": "flutter_foreground_task",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "sugared_genericSig": "<Self where Self : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onEngineWillDestroy",
+            "printedName": "onEngineWillDestroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP19onEngineWillDestroyyyF",
+            "mangledName": "$s23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP19onEngineWillDestroyyyF",
+            "moduleName": "flutter_foreground_task",
+            "genericSig": "<τ_0_0 where τ_0_0 : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "sugared_genericSig": "<Self where Self : flutter_foreground_task.FlutterForegroundTaskLifecycleListener>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP",
+        "mangledName": "$s23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP",
+        "moduleName": "flutter_foreground_task",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterForegroundTaskStarter",
+        "printedName": "FlutterForegroundTaskStarter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "DEVELOPER",
+            "printedName": "DEVELOPER",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_foreground_task.FlutterForegroundTaskStarter.Type) -> flutter_foreground_task.FlutterForegroundTaskStarter",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterForegroundTaskStarter",
+                    "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter",
+                    "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterForegroundTaskStarter",
+                        "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter",
+                        "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO9DEVELOPERyA2CmF",
+            "mangledName": "$s23flutter_foreground_task28FlutterForegroundTaskStarterO9DEVELOPERyA2CmF",
+            "moduleName": "flutter_foreground_task"
+          },
+          {
+            "kind": "Var",
+            "name": "SYSTEM",
+            "printedName": "SYSTEM",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(flutter_foreground_task.FlutterForegroundTaskStarter.Type) -> flutter_foreground_task.FlutterForegroundTaskStarter",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterForegroundTaskStarter",
+                    "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter",
+                    "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterForegroundTaskStarter",
+                        "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter",
+                        "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO6SYSTEMyA2CmF",
+            "mangledName": "$s23flutter_foreground_task28FlutterForegroundTaskStarterO6SYSTEMyA2CmF",
+            "moduleName": "flutter_foreground_task"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterForegroundTaskStarter",
+                    "printedName": "flutter_foreground_task.FlutterForegroundTaskStarter",
+                    "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO8rawValueACSgSi_tcfc",
+            "mangledName": "$s23flutter_foreground_task28FlutterForegroundTaskStarterO8rawValueACSgSi_tcfc",
+            "moduleName": "flutter_foreground_task",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO8rawValueSivp",
+            "mangledName": "$s23flutter_foreground_task28FlutterForegroundTaskStarterO8rawValueSivp",
+            "moduleName": "flutter_foreground_task",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO8rawValueSivg",
+                "mangledName": "$s23flutter_foreground_task28FlutterForegroundTaskStarterO8rawValueSivg",
+                "moduleName": "flutter_foreground_task",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:23flutter_foreground_task28FlutterForegroundTaskStarterO",
+        "mangledName": "$s23flutter_foreground_task28FlutterForegroundTaskStarterO",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task"
+      },
+      {
+        "kind": "Import",
+        "name": "BackgroundTasks",
+        "printedName": "BackgroundTasks",
+        "declKind": "Import",
+        "moduleName": "flutter_foreground_task"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftFlutterForegroundTaskPlugin",
+        "printedName": "SwiftFlutterForegroundTaskPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC8register4withySo0eH9Registrar_p_tFZ",
+            "moduleName": "flutter_foreground_task",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPluginRegistrantCallback",
+            "printedName": "setPluginRegistrantCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Flutter.FlutterPluginRegistry) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterPluginRegistry",
+                    "printedName": "any Flutter.FlutterPluginRegistry",
+                    "usr": "c:objc(pl)FlutterPluginRegistry"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(cm)setPluginRegistrantCallback:",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC03setH18RegistrantCallbackyyySo0eH8Registry_pXCFZ",
+            "moduleName": "flutter_foreground_task",
+            "static": true,
+            "objc_name": "setPluginRegistrantCallback:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addTaskLifecycleListener",
+            "printedName": "addTaskLifecycleListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterForegroundTaskLifecycleListener",
+                "printedName": "any flutter_foreground_task.FlutterForegroundTaskLifecycleListener",
+                "usr": "s:23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC03addG17LifecycleListeneryyAA0efgjK0_pFZ",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC03addG17LifecycleListeneryyAA0efgjK0_pFZ",
+            "moduleName": "flutter_foreground_task",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeTaskLifecycleListener",
+            "printedName": "removeTaskLifecycleListener(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterForegroundTaskLifecycleListener",
+                "printedName": "any flutter_foreground_task.FlutterForegroundTaskLifecycleListener",
+                "usr": "s:23flutter_foreground_task38FlutterForegroundTaskLifecycleListenerP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC06removeG17LifecycleListeneryyAA0efgjK0_pFZ",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC06removeG17LifecycleListeneryyAA0efgjK0_pFZ",
+            "moduleName": "flutter_foreground_task",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didFinishLaunchingWithOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(im)application:didFinishLaunchingWithOptions:",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDys11AnyHashableVypGtF",
+            "moduleName": "flutter_foreground_task",
+            "objc_name": "application:didFinishLaunchingWithOptions:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:performFetchWithCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIBackgroundFetchResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIBackgroundFetchResult",
+                    "printedName": "UIKit.UIBackgroundFetchResult",
+                    "usr": "c:@E@UIBackgroundFetchResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(im)application:performFetchWithCompletionHandler:",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC11application_33performFetchWithCompletionHandlerSbSo13UIApplicationC_ySo012UIBackgroundK6ResultVctF",
+            "moduleName": "flutter_foreground_task",
+            "objc_name": "application:performFetchWithCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidEnterBackground",
+            "printedName": "applicationDidEnterBackground(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(im)applicationDidEnterBackground:",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC29applicationDidEnterBackgroundyySo13UIApplicationCF",
+            "moduleName": "flutter_foreground_task",
+            "objc_name": "applicationDidEnterBackground:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationWillTerminate",
+            "printedName": "applicationWillTerminate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(im)applicationWillTerminate:",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC24applicationWillTerminateyySo13UIApplicationCF",
+            "moduleName": "flutter_foreground_task",
+            "objc_name": "applicationWillTerminate:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(im)userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC22userNotificationCenter_10didReceive21withCompletionHandlerySo06UNUserjK0C_So22UNNotificationResponseCyyctF",
+            "moduleName": "flutter_foreground_task",
+            "intro_iOS": "10.0",
+            "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(im)userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC22userNotificationCenter_11willPresent21withCompletionHandlerySo06UNUserjK0C_So14UNNotificationCySo0R19PresentationOptionsVctF",
+            "moduleName": "flutter_foreground_task",
+            "intro_iOS": "10.0",
+            "objc_name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "refreshIdentifier",
+            "printedName": "refreshIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC17refreshIdentifierSSvpZ",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC17refreshIdentifierSSvpZ",
+            "moduleName": "flutter_foreground_task",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC17refreshIdentifierSSvgZ",
+                "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC17refreshIdentifierSSvgZ",
+                "moduleName": "flutter_foreground_task",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC17refreshIdentifierSSvsZ",
+                "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC17refreshIdentifierSSvsZ",
+                "moduleName": "flutter_foreground_task",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC17refreshIdentifierSSvMZ",
+                "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC17refreshIdentifierSSvMZ",
+                "moduleName": "flutter_foreground_task",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftFlutterForegroundTaskPlugin",
+                "printedName": "flutter_foreground_task.SwiftFlutterForegroundTaskPlugin",
+                "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin(im)init",
+            "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginCACycfc",
+            "moduleName": "flutter_foreground_task",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_foreground_task@objc(cs)SwiftFlutterForegroundTaskPlugin",
+        "mangledName": "$s23flutter_foreground_task32SwiftFlutterForegroundTaskPluginC",
+        "moduleName": "flutter_foreground_task",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/BackgroundService.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 38,
+      "value": "\"flutter_foreground_task\/notification\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/BackgroundService.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 47,
+      "value": "\"flutter_foreground_task\/notification_category\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/BackgroundService.swift",
+      "kind": "StringLiteral",
+      "offset": 360,
+      "length": 15,
+      "value": "\"onReceiveData\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/BackgroundService.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 29,
+      "value": "\"onNotificationButtonPressed\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/BackgroundService.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 23,
+      "value": "\"onNotificationPressed\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/BackgroundService.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 25,
+      "value": "\"onNotificationDismissed\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/BackgroundService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/BackgroundService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1506,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/FlutterForegroundTaskStarter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/FlutterForegroundTaskStarter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/FlutterForegroundTaskStarter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/FlutterForegroundTaskStarter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/FlutterForegroundTaskStarter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/FlutterForegroundTaskStarter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/ForegroundTask.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 43,
+      "value": "\"flutter_foreground_task\/backgroundIsolate\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/ForegroundTask.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 36,
+      "value": "\"flutter_foreground_task\/background\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/ForegroundTask.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 9,
+      "value": "\"onStart\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/ForegroundTask.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 15,
+      "value": "\"onRepeatEvent\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/ForegroundTask.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 11,
+      "value": "\"onDestroy\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/ForegroundTask.swift",
+      "kind": "BooleanLiteral",
+      "offset": 848,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventAction.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 15,
+      "value": "\"taskEventType\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventAction.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 19,
+      "value": "\"taskEventInterval\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/ForegroundTaskEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/service\/ForegroundTaskLifecycleListeners.swift",
+      "kind": "Array",
+      "offset": 296,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/NotificationButton.swift",
+      "kind": "StringLiteral",
+      "offset": 147,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/NotificationButton.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/NotificationPermission.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/NotificationPermission.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/NotificationPermission.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/NotificationPermission.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/NotificationPermission.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/models\/NotificationPermission.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 25,
+      "value": "\"backgroundServiceAction\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 18,
+      "value": "\"showNotification\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 11,
+      "value": "\"playSound\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 26,
+      "value": "\"notificationContentTitle\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 25,
+      "value": "\"notificationContentText\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 469,
+      "length": 9,
+      "value": "\"buttons\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 17,
+      "value": "\"taskEventAction\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 10,
+      "value": "\"interval\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 13,
+      "value": "\"isOnceEvent\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/PreferencesKey.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 16,
+      "value": "\"callbackHandle\""
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/SwiftFlutterForegroundTaskPlugin.swift",
+      "kind": "Dictionary",
+      "offset": 3502,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joyxian\/.pub-cache\/hosted\/pub.dev\/flutter_foreground_task-9.1.0\/ios\/Classes\/SwiftFlutterForegroundTaskPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 5479,
+      "length": 45,
+      "value": "\"com.pravera.flutter_foreground_task.refresh\""
+    }
+  ]
+}
