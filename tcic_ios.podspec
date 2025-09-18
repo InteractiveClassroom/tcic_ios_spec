@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'tcic_ios'
-  s.version          = '1.0.0'
+  s.version          = '1.0.7'
   s.summary          = 'Flutter module as iOS framework with manager'
   s.homepage         = 'https://cloud.tencent.com/solution/interactive-classroom'
   # 确保 LICENSE 文件存在，或者暂时注释掉下面一行
