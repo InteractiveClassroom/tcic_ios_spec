@@ -1,6 +1,0 @@
-framework module tencentcloud_cos_sdk_plugin_nobeacon {
-  umbrella header "tencentcloud_cos_sdk_plugin_nobeacon-umbrella.h"
-
-  export *
-  module * { export * }
-}
