@@ -1,5 +1,2 @@
 *.xcframework/** filter=lfs diff=lfs merge=lfs -text
-ios-framework/Release/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Flutter filter=lfs diff=lfs merge=lfs -text
-ios-framework/Release/Flutter.xcframework/ios-arm64/dSYMs/Flutter.framework.dSYM/Contents/Resources/DWARF/Flutter filter=lfs diff=lfs merge=lfs -text
-ios-framework/Release/QCloudCOSXML.xcframework/ios-x86_64-simulator/QCloudCOSXML.framework/QCloudCOSXML filter=lfs diff=lfs merge=lfs -text
 ios-framework/Release/QCloudCOSXML.xcframework/ios-arm64/QCloudCOSXML.framework/QCloudCOSXML filter=lfs diff=lfs merge=lfs -text
