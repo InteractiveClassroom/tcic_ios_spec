@@ -1,2 +1,0 @@
-*.xcframework/** filter=lfs diff=lfs merge=lfs -text
-ios-framework/Release/QCloudCOSXML.xcframework/ios-arm64/QCloudCOSXML.framework/QCloudCOSXML filter=lfs diff=lfs merge=lfs -text
